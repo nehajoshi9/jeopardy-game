@@ -1,0 +1,84 @@
+.question-screen {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    height: 60vh;
+    width: 70%;
+    background-color: #0f28c6;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.hhh {
+    top: 40%;
+    width: 80%;
+    font-size: 3.3rem;
+    text-align: center;
+}
+.yourAnswer {
+    width: 80%;
+    color: white;
+    font-size: 2.3rem;
+    margin: 0; /* Remove the default margin */
+    padding: 5px 0;
+}
+
+.back {
+    background-color: #ffc72c;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: #ffa500;
+}
+
+.button-container {
+    display: flex;
+    /* Space between the buttons */
+    gap: 60%;
+    position: fixed;
+    bottom: 25px;
+    justify-content: center;
+    height: 6vh;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+.buzzer {
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+.buzzer:disabled {
+    background-color: rgb(186, 186, 186);
+    cursor: not-allowed;
+}
+
+.buzzer:enabled {
+    background-color: #ffc72c;
+    cursor: pointer;
+}
+
+.yourAnswer[data-underline="y"] {
+    text-decoration: underline;
+}
