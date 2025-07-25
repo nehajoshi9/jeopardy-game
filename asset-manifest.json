@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jeopardy-game/static/css/main.c14cc068.css",
+    "main.js": "/jeopardy-game/static/js/main.44bd7ae0.js",
+    "static/js/488.f14ce6c6.chunk.js": "/jeopardy-game/static/js/488.f14ce6c6.chunk.js",
+    "index.html": "/jeopardy-game/index.html",
+    "main.c14cc068.css.map": "/jeopardy-game/static/css/main.c14cc068.css.map",
+    "main.44bd7ae0.js.map": "/jeopardy-game/static/js/main.44bd7ae0.js.map",
+    "488.f14ce6c6.chunk.js.map": "/jeopardy-game/static/js/488.f14ce6c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c14cc068.css",
+    "static/js/main.44bd7ae0.js"
+  ]
+}
