@@ -1,4 +1,4 @@
-# Jeopardy! Trivia Game 🎲
+# Jeopardy! Trivia Game 
 
 A simple interactive Jeopardy-style trivia game built with **React** using the [JEPP API](https://jepp.app). Fetches random categories and clues for a new board every time you play!
 
